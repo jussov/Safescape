@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<title>Safescape Hotel</title>
+	<meta name="description" content="Discover Safescape's famous restaurant opening hours. Taste Safescape's finest and Ireland's traditional dishes prepared by our professional Chefs.">
+	<meta name="keywords" content="famous, restaurant, opening hours, Ireland's traditional, professional Chefs">
+	<meta name="author" content="Safescape Team">
+	<link rel="canonical" href="https://jussov.github.io/safescape-hotel/form.html">
+	<link rel="stylesheet" href="CSS/SafescapeHotel.css">
+	
+</head>
+
+<body>
+	
+	<header>
+		<h1>Safescape Hotel</h1>
+	</header>
+	
+	<main>
+		
+		<nav>
+			<a href="index.html">Home /</a>
+			<a href="rooms.html">Rooms /</a>
+			<a href="aboutUs.html">About Us /</a>
+			<a href="checkIn.html">Check-In & Check-Out /</a>
+			<a href="restaurant.html">Restaurant</a>
+		</nav>
+	
+	</main>
+	
+	<section class="gap">
+		<p>.</p>
+	</section>
+	
+	<section class="booking">
+		<div class="text-container9">
+			
+			<h3>Hotel Reservation</h3>
+			<form name="hotel-form" id="booking-form">
+				
+				<label for="first-name">First Name:</label>
+				<input type="text" id="first-name" name="firstname" required>
+				<br>
+				<label for="last-name">Last Name:</label>
+				<input type="text" id="last-name" name="lastname" required>
+				
+				<p>Gender:</p>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label>
+				
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">Male</label>
+				
+				<input type="radio" id="diverse" name="gender" value="diverse">
+				<label for="diverse">Diverse</label>
+				
+				<p>General Information:</p>
+				<label for="email">Email Address:</label>
+				<input type="text" id="email" name="email">
+				<br>
+				<label for="phone-number">Phone Number:</label>
+				<input type="text" id="phone-number" name="phone-number">
+				<br>
+				<label for="street">Street & House No.:</label>
+				<input type="text" id="street" name="street">
+				<br>
+				<label for="zip-code">ZIP Code:</label>
+				<input type="text" id="zip-code" name="zip-code">
+				<br>
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city">
+				<br>
+				<label for="country">Country:</label>
+				<input type="text" id="country" name="country">
+				
+				<p>Duration of Stay:</p>
+				<label for="check-in">Check-In Date:</label>
+				<input type="text" id="check-in" name="check-in" placeholder="DD/MM/YYYY">
+				
+				<label for="check-out">Check-Out Date:</label>
+				<input type="text" id="check-out" name="check-out" placeholder="DD/MM/YYYY">
+				
+				<p>Visitors:</p>
+				<label for="adults">Number of Adults:</label>
+				<input type="text" id="adults" name="adults">
+				
+				<label for="children">Number of Children:</label>
+				<input type="text" id="children" name="children">
+			
+			</form>
+			
+		</div>
+		<div class="button-container2">
+			<input type="button" value="Submit Reservation" onclick="processBooking()">
+		</div>
+	</section>
+	
+	<section class="gap">
+		<p>.</p>
+	</section>
+			
+	<footer>
+		<p>&copy; 2026 Safescape Hotel</p>
+	</footer>
+	
+	<script src="JavaScript/script.js">
+	</script>
+
+</body>
+</html>
